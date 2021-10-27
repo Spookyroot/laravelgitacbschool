@@ -1,0 +1,367 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500);
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+    background: -webkit-linear-gradient(#8CA6DB, #B993D6);
+    background: linear-gradient(#8CA6DB, #B993D6);
+    opacity: 0.85;
+
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+main {
+    width: 650px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(53, 0, 91);
+    background-color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    border-radius: 5;
+
+}
+
+footer {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px 12px;
+    
+}
+
+footer a:link{
+    text-decoration: none;
+    font: rgb(255, 255, 255);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(80, 0, 126);
+    text-align: center;
+}
+
+
+.mainnav ul {
+    list-style-type: none;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding: 14px 16px;
+}
+
+.mainnav ul li{
+    display: inline;
+    float: middle;
+}
+
+.mainnav a:link, nav a:visited {
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    
+}
+
+.mainnav a {
+    padding: 25px;
+    font-size: large;
+    font-weight: 200;
+}
+
+.mainnav a:hover {
+    background-color: rgb(159, 0, 207);
+    background-size: 25%;
+    opacity: 25%;
+    border-radius: 5px;
+}
+
+table.list,
+table.list th,
+table.list tr,
+table.list td {
+    border : 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: gray;
+}
+table
+{
+    width: 100%;
+}
+td:first-child{
+    width: 68px;
+}
+
+.code {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(153, 0, 255);
+}
+
+.name
+{
+    font-style: italic;
+}
+
+.blue{
+color: rgb(153, 0, 255);
+}
+
+.adress{
+    padding: 0%;
+    margin-top: 0;
+}
+
+pre.shop-ad{
+    margin: 0;
+}
+
+.table-label{
+    width: 100%;
+    font-size: 20px;
+}
+
+.table-sep
+{
+    width: 30px;
+    color: rgb(153, 0, 255);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"]
+{
+    width: 100%;
+    border-radius: 5;
+}
+
+.table-submit {
+    width: 50px;
+}
+
+input[type="submit"]
+{
+    margin-left: 16px;
+}
+
+.number ,input[type="number"]{
+    text-align: right;
+}
+
+input.submit
+{
+    width: 60px;
+  margin: 0 auto;
+  display: block;
+}
+
+.blue{
+    color: rgb(153, 0, 255);
+    }
+
+.count {
+    text-align: right;
+}
+
+.Add,.add,.Remove,.Role {
+    width: 60px;
+}
+
+.remove {
+    text-decoration: underline;
+    color: rgb(212, 0, 255);
+}
+
+select {
+    width: 100%;
+}
+
+.info {
+    color: rgb(119, 0, 255);
+    font-weight: bold;
+}
+
+.status {
+    border-radius: 10px;
+    border : 1px solid blue;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width:  400px;
+    text-align: center;
+    padding: 1%;
+}
+
+.warn {
+    border-radius: 10px;
+    border : 1px solid red;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width:  400px;
+    text-align: center;
+    padding: 1%;
+    color: red;
+}
+
+.user-panel {
+    list-style-type: none;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5px 0;
+    padding-left: 820px;
+}
+
+.email{
+    width: 200px;
+    text-align: center;
+}
+
+.homepic{
+    position:center;
+    height: 100%;
+    width:100%;
+   position:relative;}
+
+.spookylist th {
+    background-color: #6500a8;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+  }
+.spookylist td{
+    background-color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.spookyuser{
+    float: right;
+}
+.spookyuser span{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.spookycreate{
+    font-size: 20px;
+    background-color: none;
+    color: rgb(60, 0, 78);
+}
+
+.spookypagin{
+    display: inline-block;
+        color: black;
+        padding: 8px 16px;
+        text-decoration: none;
+        text-align: center
+}
+
+.spookypagin ul {
+    list-style-type: none;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 14px 16px;
+}
+.spookypagin ul li{
+    display: inline;
+
+}
+.spookypagin a:link, nav a:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+.spookypagin a {
+    padding: 25px;
+    font-size: large;
+    font-weight: 200;
+    text-align: center;
+}
+
+.searchbox{
+    border: 2px solid rgb(204, 0, 255);
+  border-radius: 5px;
+  padding: 5px 7px;
+}
+.accent{
+    background-color: rgb(204, 0, 255);
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-decoration: none;
+  margin: 10px 3px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.spookynew ul {
+    list-style-type: none;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    
+    padding: 14px 16px;
+    border-radius: 5px;
+}
+
+.spookynew ul li{
+    display: inline;
+    float: middle;
+}
+.spookynew a:link, nav a:visited {
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    
+}
+
+.spookynew a {
+    padding: 25px;
+    font-size: large;
+    font-weight: 200;
+}
+
+.spookynew a:hover {
+    background-color: rgb(159, 0, 207);
+    background-size: 25%;
+    opacity: 25%;
+    border-radius: 5px;
+}
